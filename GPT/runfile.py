@@ -3,7 +3,7 @@ import openai
 import sys
 
 # Set your OpenAI API key
-openai.api_key = 'sk-None-GB09FYe8LYxqnUz0PIfRT3BlbkFJL1361tWTbOSxlzV5cGiy'
+openai.api_key = 'your key'
 
 def classify_sql_injection(input_text):
     try:
