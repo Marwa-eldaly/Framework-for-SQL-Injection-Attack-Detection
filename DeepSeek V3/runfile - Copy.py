@@ -8,7 +8,7 @@ import threading
 
 client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            api_key="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",
+            api_key="your key",
             )
 
 # Thread-local storage for OpenAI client
@@ -19,7 +19,7 @@ def get_client():
     if not hasattr(thread_local, "client"):
         thread_local.client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            api_key="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",
+            api_key="your key",
         )
     return thread_local.client
 
