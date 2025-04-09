@@ -6,7 +6,7 @@ import sys
 
 client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            api_key="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",
+            api_key="your key",
             )
 def classify_sql_injection(input_text):
     try:
