@@ -1,0 +1,12 @@
+Metric,Value
+Total Instances,27475.0
+Total Positives,19522.0
+Total Negatives,7953.0
+True Positives,19456.0
+True Negatives,7943.0
+False Positives,10.0
+False Negatives,66.0
+Accuracy,99.72338489535942
+Precision,99.94862837768417
+Recall,99.66191988525766
+F1-score,99.80506822612085
